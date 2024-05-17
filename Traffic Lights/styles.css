@@ -1,0 +1,29 @@
+.traffic-light {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 4rem;
+  height: 10rem;
+  border: 1px solid black;
+}
+
+.traffic-light > * {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 1px solid grey;
+  opacity: 0.45;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
